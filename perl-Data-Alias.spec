@@ -1,6 +1,6 @@
 %define module   Data-Alias
 %define version    1.07
-%define release    %mkrel 1
+%define release    %mkrel 2
 
 %define Werror_cflags %nil
 
