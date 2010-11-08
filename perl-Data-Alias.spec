@@ -1,11 +1,11 @@
 %define upstream_name    Data-Alias
-%define upstream_version 1.07
+%define upstream_version 1.08
 
 %define Werror_cflags %nil
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 3
+Release:    %mkrel 1
 
 Summary:    Comprehensive set of aliasing operations
 License:    GPL+ or Artistic
