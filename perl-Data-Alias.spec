@@ -1,5 +1,5 @@
 %define upstream_name    Data-Alias
-%define upstream_version 1.11
+%define upstream_version 1.12
 
 %define Werror_cflags %nil
 
