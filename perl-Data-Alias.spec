@@ -5,7 +5,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:	2
 
 Summary:    Comprehensive set of aliasing operations
 License:    GPL+ or Artistic
