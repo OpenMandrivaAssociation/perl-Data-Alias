@@ -1,9 +1,9 @@
 %define	module	Data-Alias
-%define	upstream_version 1.15
+%define	upstream_version 1.16
 
 Name:		perl-%{module}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	1
 
 Summary:	Comprehensive set of aliasing operations
 License:	GPL+ or Artistic
