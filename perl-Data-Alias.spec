@@ -10,6 +10,7 @@ License:	GPLv1+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{module}
 Source0:	http://www.cpan.org/modules/by-module/Data/%{module}-%{upstream_version}.tar.gz
+Patch0:		Data-Alias-1.16-string-format-fix.patch
 
 BuildRequires:	perl-devel
 
@@ -20,6 +21,7 @@ reference to both, the two values are the same.
 
 %prep
 %setup -q -n %{module}-%{upstream_version}
+%patch0 -p1 -b .str_fmt~
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
