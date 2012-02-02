@@ -6,7 +6,7 @@ Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	Comprehensive set of aliasing operations
-License:	GPL+ or Artistic
+License:	GPLv1+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{module}
 Source0:	http://www.cpan.org/modules/by-module/Data/%{module}-%{upstream_version}.tar.gz
