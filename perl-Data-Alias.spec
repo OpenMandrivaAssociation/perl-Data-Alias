@@ -1,5 +1,5 @@
 %define	module	Data-Alias
-%define	upstream_version 1.16
+%define upstream_version 1.18
 
 Name:		perl-%{module}
 Version:	%perl_convert_version %{upstream_version}
@@ -9,7 +9,7 @@ Summary:	Comprehensive set of aliasing operations
 License:	GPLv1+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{module}
-Source0:	http://www.cpan.org/modules/by-module/Data/%{module}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Data/Data-Alias-%{upstream_version}.tar.gz
 Patch0:		Data-Alias-1.16-string-format-fix.patch
 
 BuildRequires:	perl-devel
@@ -97,4 +97,5 @@ make test
 
 * Sun May 03 2009 cpan2dist 1.07-1mdv
 - initial mdv release, generated with cpan2dist
+
 
