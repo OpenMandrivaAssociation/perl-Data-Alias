@@ -8,7 +8,7 @@ Release:	3
 Summary:	Comprehensive set of aliasing operations
 License:	GPLv1+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{module}
+Url:		https://search.cpan.org/dist/%{module}
 Source0:	http://www.cpan.org/modules/by-module/Data/Data-Alias-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
